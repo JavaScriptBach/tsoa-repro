@@ -1,0 +1,20 @@
+{
+  "name": "tsoa-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JavaScriptBach/tsoa-repro.git",
+  "author": "Phillip Huang <phillip@vanta.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "tsoa": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "build": "tsoa spec-and-routes && tsc"
+  }
+}
